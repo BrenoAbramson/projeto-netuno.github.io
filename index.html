@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netuno</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="./Assets_Netuno/assets/logo.png">
+        <ol id="navigation">
+            <li><a href="#section1">O Projeto</a></li>
+            <li><a href="#section2">O Problema</a></li>
+            <li><a href="#section3">Sua Jornada</a></li>
+            <li><a href="#section4">Objetivos</a></li>
+            <button onclick="window.location.href='#formulario'">Processo Seletivo</button>
+        </ol> 
+    </header>
+    <div id="line"></div>
+    <main>
+        <img src="./Assets_Netuno/bannertopo.png" alt="">
+        <div id="formulario">
+            <div id="form1">
+                <h2>Formulário de Cadastro</h2>
+                <p><b>Preencha seus dados</b></p>
+                <input type="text" placeholder="Nome Completo*" id="name">
+                <input type="text" placeholder="E-mail*" id="email">
+                <select name="estado" id="estado">
+                    <option value="">Estado<b>*</b></option>
+                    <option value="">Acre</option>
+                    <option value="">Alagoas</option>
+                    <option value="">Amapá</option>
+                    <option value="">Amazonas</option>
+                    <option value="">Bahia</option>
+                    <option value="">Ceará</option>
+                    <option value="">Distrito Federal</option>
+                    <option value="">Espírito Santo</option>
+                    <option value="">Goías</option>
+                    <option value="">Maranhão</option>
+                    <option value="">Mato Grosso</option>
+                    <option value="">Mato Grosso do Sul</option>
+                    <option value="">Minas Gerais</option>
+                    <option value="">Pará</option>
+                    <option value="">Paraíba</option>
+                    <option value="">Paraná</option>
+                    <option value="">Pernambuco</option>
+                    <option value="">Piauí</option>
+                    <option value="">Rio de Janeiro</option>
+                    <option value="">Rio Grande do Norte</option>    
+                    <option value="">Rio Grande do Sul</option>
+                    <option value="">Rondônia</option>
+                    <option value="">Roraima</option>
+                    <option value="">Santa Catarina</option>
+                    <option value="">São Paulo</option>
+                    <option value="">Sergipe</option>
+                    <option value="">Tocantins</option>
+                </select>
+            </div>
+            <div id="form2">
+                <p>Conhecimento de Programação*</p>
+                <form action="">
+                    <input type="checkbox" name="HTML">
+                    <label for="">HTML</label>
+                    <input type="checkbox" name="CSS">
+                    <label for="">CSS</label>
+                    <input type="checkbox" name="JavaScript">
+                    <label for="">JavaScript</label>
+                    <input type="checkbox" name="PHP">
+                    <label for="">PHP</label>
+                    <input type="checkbox" name=".NET">
+                    <label for="">.NET</label>
+                    <input type="checkbox" name="Vue.JS">
+                    <label for="">Vue.JS</label>
+                    <input type="checkbox" name="ReactJS">
+                    <label for="">ReactJS</label>
+                    <input type="checkbox" name="React Native">
+                    <label for="">React Native</label>
+                    <input type="checkbox" name="Node">
+                    <label for="">Node</label>
+                    <input type="checkbox" name="Python">
+                    <label for="">Python</label>
+                    <input type="checkbox" name="Flutter">
+                    <label for="">Flutter</label>
+                    <input type="checkbox" name="Outras">
+                    <label for="">Outras</label>
+                </form>
+            </div>
+            <div id="form3">
+                <p id="p1"><b>Já trabalhou com desenvolvimento?</b></p>
+                <form action="">
+                    <input type="checkbox" name="Não">
+                    <label for="Não">Não</label>
+                    <div id="box">
+                        <input type="checkbox" name="Sim">
+                        <label for="Não">Sim</label>
+                    </div>    
+                </form>
+                <div id="linha"></div>
+                <p id="p2"><b>(*) Campos Obrigatorios</b></p>
+                <button>Enviar</button>
+                <p id="p3">Ao clicar em enviar, você concorda com todos os termos<br> de uso de dados descritos em <b>politica de privacidade</b>.</p>
+            </div>    
+        </div>    
+    </main> 
+    <section id="section1">
+        <div id="part-img1">
+            <img src="./Assets_Netuno/dev.png" alt="">
+        </div>
+        <div id="part-prf1">
+            <h1>O Projeto</h1>
+            <p>Com o “novo normal” causado pela pandemia dos últimos anos, mais  empresas no mundo todo têm aberto oportunidades no modelo Home Office.
+                Alinhado a depreciação da moeda local, temos um alto índice de profissionais migrando para trabalhos em outros países.</p>
+                
+            <p><b>O projeto Netuno, idealizado pela Fasters, tem por objetivo reduzir os estresses causados por recrutamento e turn over na área de tecnologia, bem como gerar oportunidades de carreira para novos profissionais.</b></p>
+        </div>
+    </section>
+
+    <section id="section2">
+        <div id="part-img2">
+            <img src="./Assets_Netuno/Container2.png" alt="">
+        </div>
+        <div id="part-prf2">
+            <h1>O Problema</h1>
+            <h2>Falta de profissionais de TI no Mercado brasileiro: um problema que demanda atenção urgente.</h2>
+            <div id="linha3"></div>
+            <p>Estima-se que atualmente tenhamos um déficit de 408 mil postos de trabalho, com perdas se acumulando na casa dos R$167 bilhões, de acordo com a Softex, uma organização social voltada ao fomento da área de TI.<br><br>
+            <b>Um dos principais fatores dessa falta de profissionais é o êxodo de profissionais para o exterior.</b></p>
+        </div>
+
+    </section>
+
+    <section id="section3">
+        <div id="box-info">
+            <div>
+                <h1>Oportunidade</h1>
+                <P class="number">1</P>
+                <p>Acreditamos que a combinação de interesse, dedicação e oportunidade pode causar um grande impacto nas pessoas, nas organizações e no mundo.
+                </p>
+            </div>
+            <div>
+                <h1>Comunidade</h1>
+                <P class="number">2</P>
+                <p>Dentro de um grupo de pessoas mais experientes e acessíveis, a curva de aprendizado ocorre de forma mais rápida, fluída e eficiente.
+                </p>
+            </div>
+            <div>
+                <h1>Experiencia Real</h1>
+                <P class="number">3</P>
+                <p>Entendemos que somente as experiências reais poderão trazer a bagagem que a teoria não o pode fazer.
+                </p><br>
+            </div>
+        </div>
+        <div id="jorned">
+            <img src="./Assets_Netuno/Elements/Vector2.png" alt="" id="img1">
+            <h1>Sua Jornada</h1>
+            <img src="./Assets_Netuno/Elements/Vector2.png" alt="">
+        </div>
+        <div id="jorned-info">
+            <div class="bloco">
+                <div class="sub-bloco">
+                    <div class="sub-bloco-img">
+                        <img src="./Assets_Netuno/icones/calendario.png" alt="">
+                    </div>    
+                    <p>Programas de 4 meses de duração, sendo 6 horas/dia.</p>
+                </div>
+                <div class="sub-bloco">
+                    <div class="sub-bloco-img">
+                        <img src="./Assets_Netuno/icones/medalha.png" alt="">
+                    </div>
+                    <p>Do Zero ao Junior Promissor em 4 meses.</p>
+                </div>
+                <div class="sub-bloco">
+                    <div class="sub-bloco-img">
+                        <img src="./Assets_Netuno/icones/relogio.png" alt="">
+                    </div>                        
+                    <p>640 horas de aplicação prática dos conceitos.</p>
+                </div>
+            </div>
+            <div class="bloco">    
+                <div class="sub-bloco">
+                    <div class="sub-bloco-img">
+                        <img src="./Assets_Netuno/icones/home.png" alt="">
+                    </div>
+                    <p>Mentoria individual e coletiva em padrão ágil.</p>
+                </div>
+                <div class="sub-bloco">
+                    <div id="sub-bloco-group-img">
+                        <img src="./Assets_Netuno/icones/group.png" alt="">
+                    </div>
+                    <p>100% Home Office com plataformas de cursos online.</p>
+                </div>
+                <div class="sub-bloco">
+                    <div class="sub-bloco-img">
+                        <img src="./Assets_Netuno/icones/target.png" alt="">
+                    </div>
+                    <p>Variedade de áreas dentro da tecnologia.</p>
+                </div>
+            </div>    
+        </div>
+        <div id="jorned-button">
+            <button onclick="window.location.href='#formulario'"><p>Quero me cadastrar para o <b>Processo Seletivo</b></p>
+                <img src="Assets_Netuno/icones/enter.png" alt="">
+            </button>
+            <img src="Assets_Netuno/Elements/Vector1.png" alt="" id="buton-img">
+        </div>
+
+    </section>
+
+    <section id="section4">
+        <h2>Objetivos</h2>
+        <div id="analise">
+            <div class="box-analise">
+                <h1>Otimizar</h1>
+                <p><b>Otimizar todo processo de contratação chegando a contribuir com uma economia de 40% no processo de recrutamento.</b></p>
+            </div>
+            <div class="box-analise">
+                <h1>Gerar</h1>
+                <p><b>Gerar novas oportunidades de carreira para pessoas interessadas em ingressar na área ou migrar de outras áreas que esteja descontente.</b></p>
+            </div>
+            <div id="box-analise-3">
+                <h1>Filtrar</h1>
+                <p><b>Criar oportunidades brilhantes para profissionais que se destacarem junto a parceiros estratégicos de negócios.</b></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div id="redes">
+            <img src="./Assets_Netuno/assets/logo+slogan.png" alt="" id="redes-img">
+            <div id="redes-sociais">
+                <img src="Assets_Netuno/icones/fb.png" alt="">
+                <img src="Assets_Netuno/icones/ig.png" alt="">
+                <img src="Assets_Netuno/icones/in.png" alt="">
+            </div>
+            <p>Netuno&copy; 2022 - Todos os direitos reservados</p>
+        </div>
+        <div id="contatos">
+            <button onclick="window.location.href='#formulario'"><b>Processo Seletivo</b></button>
+            <ul>
+                <li>O Projeto</li>
+                <li>O Problema</li>
+                <li>Sua Jornada</li>
+                <li>Objetivos</li>
+            </ul>
+            <div id="linha5"></div>
+            <ul id="list-cont">
+                <li><b>Contato</b></li>
+                <li>11 91234.5678</li>
+                <li>contato@netuno.com.br</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
